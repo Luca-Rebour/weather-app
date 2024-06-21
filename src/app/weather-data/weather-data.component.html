@@ -1,0 +1,28 @@
+<div class="main-container">
+    <div class="contenedor-nombre-icono">
+    <h2>{{ temp | number: '1.0-0' }}°C</h2>
+    <img  class="icono" [src]="icono" alt="Weather Icon">
+    </div>
+    <h3>{{ ciudad }}</h3>
+    <!-- Agrega la imagen del clima aquí -->
+    
+
+    <div class="data-container-padre">
+        <div class="data-container">
+            <i class='bx bx-wind'></i>
+            <p>{{ viento }} km/h</p>
+        </div>
+        <div class="data-container">
+            <i class='bx bx-cloud'></i>
+            <p>{{ nubes }} %</p>
+        </div>
+        <div class="data-container">
+            <i class='bx bx-tachometer'></i>
+            <p>{{ presion }} hPa</p>
+        </div>
+        <div class="data-container">
+            <i class='bx bx-water'></i>
+            <p>{{ humedad }}</p>
+        </div>
+   </div>
+</div>

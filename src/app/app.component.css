@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+.nombre-header {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+app-weather-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
